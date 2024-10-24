@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <FileAnalyzer accept="image/png" />
+      <FileAnalyzer accept="image/jpeg" />
       <FileAnalyzer accept="image/*" />
       <FileAnalyzer />
     </>
